@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -11,7 +12,8 @@
 
        android:id="@+id/dice_image"
        android:layout_gravity="center_horizontal"
-       android:src="@drawable/dice_1"
+       app:srcCompat="@drawable/dice_1"
+
        tools:src="@drawable/empty_dice"
        android:layout_width="wrap_content"
        android:layout_height="match_parent">
